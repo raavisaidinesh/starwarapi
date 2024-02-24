@@ -1,15 +1,14 @@
-import { useState } from 'react'
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import { starwar } from './components/starwar/starwar'
+import { Starwar } from './components/Starwar/Starwar';
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-    <starwar/>
+    <Starwar/>
     </>
   )
 }

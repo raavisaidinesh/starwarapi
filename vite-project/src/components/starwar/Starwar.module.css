@@ -1,0 +1,45 @@
+.h{
+    color: aqua;
+}
+.peoplebox{
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    width: 90%;
+    height: 70vh;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+.peoplecard{
+    list-style-type: none;
+    padding: 10px;
+    background: rgb(58,180,172);
+    background: linear-gradient(135deg, rgba(58,180,172,0.6111694677871149) 20%, rgba(41,74,217,0.34226190476190477) 52%, rgba(49,181,80,0.5467436974789917) 75%);
+    border: 2px solid black;
+    
+
+}
+.peoplecard span{
+    font-weight: bold;
+}
+.peoplecard li{
+    width: 180px;
+}
+footer{
+    /* position: absolute; */
+    bottom: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+footer button{
+    /* color: white; */
+    font-size: 20px;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgb(69, 69, 175);
+}
